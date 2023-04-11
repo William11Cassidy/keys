@@ -1,22 +1,46 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body{
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 10px;
+	border-width:40px;
+	background-color: white; 
+	border-style:ridge;
+}
 
+h1,h4
+{
+	
+	color:red!important;
+	
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>ASCII value</title>
 </head>
+<body>
 
-<body class="body_backgorund">
+<center>
+<h1>Keyboard keys</h1>
+	<canvas id="myCanvas" width="500" height="300"></canvas>
+	<div id="d1"></div>
+<h4>
+	<b class="text-danger">NOTE : </b> PRESS ANY KEYBOARD KEY 
+</h4>
 
-    <div align="center">
-        <h1>Paint</h1>
-
-        <canvas id="myCanvas" width="800" height="600"></canvas>
-    </div>
-    <script src="main.js"></script>
-    </body>
-    </html>
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
